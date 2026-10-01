@@ -5,8 +5,8 @@ Legend:
 - imm16, imm26 -> 16/26 bit immidiate value
 - rd -> input register specified in the instruction
 - rs1, rs2, rs3 -> input register specified in the instruction\
-  *(rs1) -> memory at address specified by the contents of the rs1 register
-  *(rs2 + imm16) -> memory at address specified by the contents of the rs2
+- (rs1) -> memory at address specified by the contents of the rs1 register
+- (rs2 + imm16) -> memory at address specified by the contents of the rs2
   register + imm16 immediate value
 
 ## Hardware
